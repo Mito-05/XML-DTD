@@ -1,0 +1,13 @@
+<!ELEMENT factura (fecha, cliente, productos)>
+<!ATTLIST factura numero_factura CDATA #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT cliente (nombre_cliente, dni_cif, direccion?)>
+<!ELEMENT nombre_cliente (#PCDATA)>
+<!ELEMENT dni_cif (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre_prod, cantidad, precio)>
+<!ELEMENT nombre_prod (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio divisa (EUR | USD) "EUR">

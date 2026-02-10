@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE calendario SYSTEM "calendarios.dtd">
+<calendario>
+    <evento categoria="profesional">
+        <titulo>Reunión de Planificación Trimestral</titulo>
+        <fecha>
+            <dia>15</dia>
+            <mes>06</mes>
+            <anio>2024</anio>
+        </fecha>
+        <descripcion>Revisión de objetivos y KPIs del segundo trimestre.</descripcion>
+        <ubicacion>Sala de juntas A</ubicacion>
+        <ubicacion>Enlace de Zoom</ubicacion>
+    </evento>
+
+    <evento categoria="personal">
+        <titulo>Cena de Cumpleaños</titulo>
+        <fecha>
+            <dia>22</dia>
+            <mes>06</mes>
+            <anio>2024</anio>
+        </fecha>
+        <ubicacion>Restaurante "El Buen Comer"</ubicacion>
+    </evento>
+
+    <evento categoria="social">
+        <titulo>Concierto de Rock</titulo>
+        <fecha>
+            <dia>05</dia>
+            <mes>07</mes>
+            <anio>2024</anio>
+        </fecha>
+        <descripcion>Festival de verano al aire libre.</descripcion>
+        <ubicacion>Estadio Olímpico</ubicacion>
+    </evento>
+</calendario>

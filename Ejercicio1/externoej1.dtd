@@ -1,0 +1,7 @@
+<!ELEMENT registro_empleados (empleado+)>
+<!ELEMENT empleado (nombre, id_empleado, cargo, salario)>
+<!ATTLIST empleado id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT id_empleado (#PCDATA)>
+<!ELEMENT cargo (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>

@@ -1,0 +1,10 @@
+<!ELEMENT calendario (evento+)>
+<!ELEMENT evento (titulo, fecha, descripcion?, ubicacion*)>
+<!ATTLIST evento categoria (personal | profesional | social) "personal">
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fecha (dia, mes, anio)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT ubicacion (#PCDATA)>

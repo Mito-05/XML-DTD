@@ -1,0 +1,19 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE registro_empleados SYSTEM "externoej1.dtd" [
+    <!ENTITY empresa "Riot Games">
+]>
+<registro_empleados>
+    <empleado id="E001">
+        <nombre>Julian Chavez</nombre>
+        <id_empleado>12345678</id_empleado>
+        <cargo>Exleyenda de Valorant</cargo>
+        <salario moneda="EUR">1700</salario>
+    </empleado>
+    <empleado id="E001">
+        <nombre>Nerea Ros</nombre>
+        <id_empleado>12345678</id_empleado>
+        <cargo>Desarrolladora Front</cargo>
+        <salario moneda="EUR">2500</salario>
+    </empleado>
+</registro_empleados>

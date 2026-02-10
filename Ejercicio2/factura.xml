@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura SYSTEM "factura.dtd">
+<factura numero_factura="F-2024-001">
+    <fecha>2024-05-20</fecha>
+    <cliente>
+        <nombre_cliente>Manuel Vasco</nombre_cliente>
+        <dni_cif>89283645X</dni_cif>
+        <direccion>Calle Corrode, Planeta Omega</direccion>
+    </cliente>
+    <productos>
+        <producto>
+            <nombre_prod>Monitor 24.5 pulgadas</nombre_prod>
+            <cantidad>1</cantidad>
+            <precio divisa="EUR">233</precio>
+        </producto>
+        <producto>
+            <nombre_prod>Teclado óptomecanico</nombre_prod>
+            <cantidad>2</cantidad>
+            <precio divisa="EUR">180</precio>
+        </producto>
+        <producto>
+            <nombre_prod>Cable DysplayPort</nombre_prod>
+            <cantidad>3</cantidad>
+            <precio divisa="USD">15</precio>
+        </producto>
+    </productos>
+</factura>
